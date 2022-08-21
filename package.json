@@ -1,0 +1,16 @@
+{
+  "name": "base_start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webdriver:update":"webdriver-manager update",
+    "test": "protractor./protractor.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.0.0",
+    "protractor": "^7.0.0"
+  }
+}
